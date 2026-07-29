@@ -5,8 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>I build practical AI systems and open-source tools.</strong><br />
-  <sub>Construo sistemas de IA aplicada e ferramentas open source.</sub>
+  <strong>I build practical AI systems and open-source tools.</strong>
 </p>
 
 <p align="center">
@@ -23,7 +22,7 @@
   <a href="https://www.linkedin.com/in/luisroquette/">LinkedIn</a>
 </p>
 
-## Projetos autorais
+## Original projects
 
 <table>
   <tr>
@@ -64,7 +63,7 @@
   </tr>
 </table>
 
-## Mais projetos autorais
+## More original projects
 
 - **[SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server)** — Brazilian AI news and data for agents through MCP.
 - **[RocketLabs](https://github.com/luisroquette/RocketLabs)** — the complete, bilingual project catalog.
@@ -73,9 +72,9 @@
 - **[coesa-auditoria](https://github.com/luisroquette/coesa-auditoria)** — invoice-audit landing page.
 - **[testecursor](https://github.com/luisroquette/testecursor)** — experimental workspace.
 
-## Recomendados
+## Recommended projects
 
-Forks que acompanho e recomendo. A autoria e a manutenção principal pertencem aos projetos originais.
+Forks I follow and recommend. The original projects retain primary authorship and maintenance.
 
 - **[MarkItDown](https://github.com/luisroquette/markitdown)** — convert files and office documents to Markdown.
 - **[Graphify](https://github.com/luisroquette/graphify)** — turn codebases and docs into queryable knowledge graphs.
