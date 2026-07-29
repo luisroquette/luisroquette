@@ -23,7 +23,7 @@
   <a href="https://www.linkedin.com/in/luisroquette/">LinkedIn</a>
 </p>
 
-## Start here
+## Projetos autorais
 
 <table>
   <tr>
@@ -64,10 +64,29 @@
   </tr>
 </table>
 
-## More from the lab
+## Mais projetos autorais
 
 - **[SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server)** — Brazilian AI news and data for agents through MCP.
 - **[RocketLabs](https://github.com/luisroquette/RocketLabs)** — the complete, bilingual project catalog.
+- **[youre-always_on_my_mind-free](https://github.com/luisroquette/youre-always_on_my_mind-free)** — visual memory cockpit for claude-mem.
+- **[Homebrew Tap](https://github.com/luisroquette/homebrew-tap)** — install NotchAgent with Homebrew.
+- **[coesa-auditoria](https://github.com/luisroquette/coesa-auditoria)** — invoice-audit landing page.
+- **[testecursor](https://github.com/luisroquette/testecursor)** — experimental workspace.
+
+## Recomendados
+
+Forks que acompanho e recomendo. A autoria e a manutenção principal pertencem aos projetos originais.
+
+- **[MarkItDown](https://github.com/luisroquette/markitdown)** — convert files and office documents to Markdown.
+- **[Graphify](https://github.com/luisroquette/graphify)** — turn codebases and docs into queryable knowledge graphs.
+- **[Awesome MCP Servers](https://github.com/luisroquette/awesome-mcp-servers)** — curated collection of MCP servers.
+- **[Claude Usage Stick](https://github.com/luisroquette/claude-usage-stick-SVGL)** — real-time Claude Code rate-limit monitor for ESP32 boards.
+- **[MoneyPrinterTurbo](https://github.com/luisroquette/MoneyPrinterTurbo)** — generate short videos with AI.
+- **[Awesome AI Tools](https://github.com/luisroquette/awesome-ai-tools)** — curated AI tools directory.
+- **[GhostTrack](https://github.com/luisroquette/GhostTrack)** — location and mobile-number tracking tool.
+- **[video-use-claude-skill](https://github.com/luisroquette/video-use-claude-skill)** — video-oriented Claude skill.
+- **[mcp-dev-brasil](https://github.com/luisroquette/mcp-dev-brasil)** — MCP servers for Brazilian services.
+- **[500 AI Agents Projects](https://github.com/luisroquette/500-AI-Agents-Projects)** — AI-agent use cases and open-source references.
 
 <p align="center">
   <strong>Build something useful. Make it understandable. Put it into the world.</strong>
