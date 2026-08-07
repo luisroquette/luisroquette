@@ -69,6 +69,11 @@
         <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/motor-empiricus.svg" alt="Motor Empiricus" width="100%" />
       </a>
       <h3>Motor Empiricus</h3>
+      <p align="center">
+        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-weekly-digest.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-weekly-digest.png" alt="Real weekly digest" width="31%" /></a>
+        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-editorial-lesson.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-editorial-lesson.png" alt="Real editorial lesson" width="31%" /></a>
+        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-campaign-letter.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-campaign-letter.png" alt="Real campaign letter" width="31%" /></a>
+      </p>
       <p>A portable direct-response email system for turning captured leads into lessons, letters, follow-ups and compliant conversion offers.</p>
       <p><a href="https://github.com/luisroquette/motor-empiricus#quick-start"><strong>Use the engine</strong></a> · <a href="https://github.com/luisroquette/motor-empiricus#what-it-produces">See real outputs</a></p>
     </td>
