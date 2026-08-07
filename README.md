@@ -17,6 +17,8 @@
   ·
   <a href="https://github.com/luisroquette/notchagent/releases/latest">Install NotchAgent</a>
   ·
+  <a href="https://github.com/luisroquette/motor-empiricus#quick-start">Use Motor Empiricus</a>
+  ·
   <a href="https://github.com/luisroquette/social-machine-for-all#product-tour">See a demo</a>
   ·
   <a href="https://www.linkedin.com/in/luisroquette/">LinkedIn</a>
@@ -59,6 +61,16 @@
       <h3>Carousel Story Engine</h3>
       <p>An evidence-led AI skill for turning rough ideas into polished Instagram and LinkedIn carousels.</p>
       <p><a href="https://github.com/luisroquette/carousel-story-engine#quick-start"><strong>Use the skill</strong></a> · <a href="https://github.com/luisroquette/carousel-story-engine#see-the-difference">Demo</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/luisroquette/motor-empiricus">
+        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/motor-empiricus.svg" alt="Motor Empiricus" width="100%" />
+      </a>
+      <h3>Motor Empiricus</h3>
+      <p>A portable direct-response email system for turning captured leads into lessons, letters, follow-ups and compliant conversion offers.</p>
+      <p><a href="https://github.com/luisroquette/motor-empiricus#quick-start"><strong>Use the engine</strong></a> · <a href="https://github.com/luisroquette/motor-empiricus#what-it-produces">See real outputs</a></p>
     </td>
   </tr>
 </table>
