@@ -53,6 +53,24 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/luisroquette/youre-always_on_my_mind-free">
+        <img src="https://raw.githubusercontent.com/luisroquette/youre-always_on_my_mind-free/main/assets/readme/hero.svg" alt="You're Always on My Mind — visual memory cockpit" width="100%" />
+      </a>
+      <h3>You're Always on My Mind</h3>
+      <p>A local-first visual memory cockpit for claude-mem: explore connected projects, search offline, inspect quality signals and manage accumulated agent context without sending it to a paid model API.</p>
+      <p><a href="https://github.com/luisroquette/youre-always_on_my_mind-free#get-started"><strong>Get started</strong></a> · <a href="https://github.com/luisroquette/youre-always_on_my_mind-free">Source</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/luisroquette/swen-mcp-server#connecting-an-mcp-client">
+        <img src="https://swen.ia.br/api/og/guia?title=SWEN.AI+Entenda+e+use+IA&amp;badge=Brasil" alt="SWEN.AI — Brazilian AI intelligence for agents" width="100%" />
+      </a>
+      <h3>SWEN.AI MCP Server</h3>
+      <p>A public MCP endpoint that gives agents structured access to Brazilian AI news, model rankings, tools and tutorials. No API key or local installation required.</p>
+      <p><a href="https://github.com/luisroquette/swen-mcp-server#connecting-an-mcp-client"><strong>Connect an agent</strong></a> · <a href="https://github.com/luisroquette/swen-mcp-server">Reference source</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/luisroquette/notchagent">
         <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/notchagent.svg" alt="NotchAgent" width="100%" />
       </a>
@@ -106,9 +124,7 @@
 
 ## More original projects
 
-- **[SWEN.AI MCP Server](https://github.com/luisroquette/swen-mcp-server)** — Brazilian AI news and data for agents through MCP.
 - **[RocketLabs](https://github.com/luisroquette/RocketLabs)** — the complete, bilingual project catalog.
-- **[youre-always_on_my_mind-free](https://github.com/luisroquette/youre-always_on_my_mind-free)** — visual memory cockpit for claude-mem.
 - **[Homebrew Tap](https://github.com/luisroquette/homebrew-tap)** — install NotchAgent with Homebrew.
 - **[coesa-auditoria](https://github.com/luisroquette/coesa-auditoria)** — invoice-audit landing page.
 - **[testecursor](https://github.com/luisroquette/testecursor)** — experimental workspace.
