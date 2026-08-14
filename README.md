@@ -79,12 +79,12 @@
       <p><a href="https://luisroquette.github.io/notchagent/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/notchagent/releases/latest">Install</a> · <a href="https://github.com/luisroquette/notchagent">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/luisroquette/social-machine-for-all">
+      <a href="https://luisroquette.github.io/social-machine-for-all/">
         <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/social-machine.svg" alt="Social Machine for All" width="100%" />
       </a>
       <h3>Social Machine for All</h3>
       <p>A self-hosted content operations system: discover, create, review, publish and learn with your data under control.</p>
-      <p><a href="https://github.com/luisroquette/social-machine-for-all#quick-start"><strong>Get started</strong></a> · <a href="https://github.com/luisroquette/social-machine-for-all#product-tour">Demo</a></p>
+      <p><a href="https://luisroquette.github.io/social-machine-for-all/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/social-machine-for-all#quick-start">Get started</a> · <a href="https://github.com/luisroquette/social-machine-for-all">Source</a></p>
     </td>
   </tr>
   <tr>
