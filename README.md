@@ -53,12 +53,12 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/luisroquette/youre-always_on_my_mind-free">
+      <a href="https://luisroquette.github.io/youre-always_on_my_mind-free/">
         <img src="https://raw.githubusercontent.com/luisroquette/youre-always_on_my_mind-free/main/assets/readme/hero.svg" alt="You're Always on My Mind — visual memory cockpit" width="100%" />
       </a>
       <h3>You're Always on My Mind</h3>
       <p>A local-first visual memory cockpit for claude-mem: explore connected projects, search offline, inspect quality signals and manage accumulated agent context without sending it to a paid model API.</p>
-      <p><a href="https://github.com/luisroquette/youre-always_on_my_mind-free#get-started"><strong>Get started</strong></a> · <a href="https://github.com/luisroquette/youre-always_on_my_mind-free">Source</a></p>
+      <p><a href="https://luisroquette.github.io/youre-always_on_my_mind-free/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/youre-always_on_my_mind-free#get-started">Get started</a> · <a href="https://github.com/luisroquette/youre-always_on_my_mind-free">Source</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/luisroquette/swen-mcp-server#connecting-an-mcp-client">
