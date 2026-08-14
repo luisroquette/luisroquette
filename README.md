@@ -61,12 +61,12 @@
       <p><a href="https://luisroquette.github.io/youre-always_on_my_mind-free/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/youre-always_on_my_mind-free#get-started">Get started</a> · <a href="https://github.com/luisroquette/youre-always_on_my_mind-free">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/luisroquette/swen-mcp-server#connecting-an-mcp-client">
+      <a href="https://luisroquette.github.io/swen-mcp-server/">
         <img src="https://swen.ia.br/api/og/guia?title=SWEN.AI+Entenda+e+use+IA&amp;badge=Brasil" alt="SWEN.AI — Brazilian AI intelligence for agents" width="100%" />
       </a>
       <h3>SWEN.AI MCP Server</h3>
       <p>A public MCP endpoint that gives agents structured access to Brazilian AI news, model rankings, tools and tutorials. No API key or local installation required.</p>
-      <p><a href="https://github.com/luisroquette/swen-mcp-server#connecting-an-mcp-client"><strong>Connect an agent</strong></a> · <a href="https://github.com/luisroquette/swen-mcp-server">Reference source</a></p>
+      <p><a href="https://luisroquette.github.io/swen-mcp-server/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/swen-mcp-server#connecting-an-mcp-client">Connect an agent</a> · <a href="https://github.com/luisroquette/swen-mcp-server">Source</a></p>
     </td>
   </tr>
   <tr>
