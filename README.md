@@ -15,6 +15,8 @@
 <p align="center">
   <a href="https://github.com/luisroquette/RocketLabs">Project library</a>
   ·
+  <a href="https://luisroquette.github.io/resuma/">Explore Resuma</a>
+  ·
   <a href="https://github.com/luisroquette/notchagent/releases/latest">Install NotchAgent</a>
   ·
   <a href="https://luisroquette.github.io/memoryguard/">Install MemoryGuard</a>
@@ -29,6 +31,16 @@
 ## Original projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://luisroquette.github.io/resuma/">
+        <img src="https://raw.githubusercontent.com/luisroquette/resuma/main/media/resuma-hero.png" alt="Resuma — open-source intelligence for WhatsApp communities" width="100%" />
+      </a>
+      <h3>Resuma</h3>
+      <p>A provider-neutral, deterministic core for concise community summaries, sourced question search, configurable commands, participant events and campaigns. Clone it, connect your own authorized adapter and keep control of the data.</p>
+      <p><a href="https://luisroquette.github.io/resuma/"><strong>See the project</strong></a> · <a href="https://github.com/luisroquette/resuma#local-development">Run locally</a> · <a href="https://github.com/luisroquette/resuma">Source</a></p>
+    </td>
+  </tr>
   <tr>
     <td colspan="2" valign="top">
       <a href="https://luisroquette.github.io/memoryguard/">
