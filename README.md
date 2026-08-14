@@ -21,7 +21,7 @@
   ·
   <a href="https://luisroquette.github.io/memoryguard/">Install MemoryGuard</a>
   ·
-  <a href="https://github.com/luisroquette/motor-empiricus#quick-start">Use Motor Empiricus</a>
+  <a href="https://github.com/luisroquette/motor-empiricus#quick-start">Use My_MailMKT_makes_Neil_Proud</a>
   ·
   <a href="https://github.com/luisroquette/social-machine-for-all#product-tour">See a demo</a>
   ·
@@ -90,9 +90,9 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://luisroquette.github.io/autoblog-template/">
-        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/autoblog.svg" alt="Auto-blog Template" width="100%" />
+        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/autoblog.svg" alt="My_Blog_Makes_Neil_Proud" width="100%" />
       </a>
-      <h3>Auto-blog Template</h3>
+      <h3>My_Blog_Makes_Neil_Proud</h3>
       <p>A replicable Next.js and Supabase foundation for turning editorial ideas into SEO-ready articles.</p>
       <p><a href="https://luisroquette.github.io/autoblog-template/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/autoblog-template#faça-uma-instalação-limpa">Set up</a> · <a href="https://github.com/luisroquette/autoblog-template">Source</a></p>
     </td>
@@ -108,9 +108,9 @@
   <tr>
     <td colspan="2" valign="top">
       <a href="https://luisroquette.github.io/motor-empiricus/">
-        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/motor-empiricus.svg" alt="Motor Empiricus" width="100%" />
+        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/motor-empiricus.svg" alt="My_MailMKT_makes_Neil_Proud" width="100%" />
       </a>
-      <h3>Motor Empiricus</h3>
+      <h3>My_MailMKT_makes_Neil_Proud</h3>
       <p align="center">
         <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-weekly-digest.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-weekly-digest.png" alt="Real weekly digest" width="31%" /></a>
         <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-editorial-lesson.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-editorial-lesson.png" alt="Real editorial lesson" width="31%" /></a>
