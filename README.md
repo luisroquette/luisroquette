@@ -89,12 +89,12 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/luisroquette/autoblog-template">
+      <a href="https://luisroquette.github.io/autoblog-template/">
         <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/autoblog.svg" alt="Auto-blog Template" width="100%" />
       </a>
       <h3>Auto-blog Template</h3>
       <p>A replicable Next.js and Supabase foundation for turning editorial ideas into SEO-ready articles.</p>
-      <p><a href="https://github.com/luisroquette/autoblog-template#faça-uma-instalação-limpa"><strong>Set up</strong></a> · <a href="https://github.com/luisroquette/autoblog-template">Explore</a></p>
+      <p><a href="https://luisroquette.github.io/autoblog-template/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/autoblog-template#faça-uma-instalação-limpa">Set up</a> · <a href="https://github.com/luisroquette/autoblog-template">Source</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/luisroquette/carousel-story-engine">
