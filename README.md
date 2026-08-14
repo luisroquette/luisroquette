@@ -17,7 +17,7 @@
   ·
   <a href="https://luisroquette.github.io/resuma/">Explore Resuma</a>
   ·
-  <a href="https://github.com/luisroquette/notchagent/releases/latest">Install NotchAgent</a>
+  <a href="https://luisroquette.github.io/notchagent/">Explore NotchAgent</a>
   ·
   <a href="https://luisroquette.github.io/memoryguard/">Install MemoryGuard</a>
   ·
@@ -71,12 +71,12 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/luisroquette/notchagent">
+      <a href="https://luisroquette.github.io/notchagent/">
         <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/notchagent.svg" alt="NotchAgent" width="100%" />
       </a>
       <h3>NotchAgent</h3>
       <p>Your AI-agent fuel gauge in the MacBook notch. Monitor quotas, burn rate and alerts locally.</p>
-      <p><a href="https://github.com/luisroquette/notchagent/releases/latest"><strong>Install</strong></a> · <a href="https://github.com/luisroquette/notchagent">Explore</a></p>
+      <p><a href="https://luisroquette.github.io/notchagent/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/notchagent/releases/latest">Install</a> · <a href="https://github.com/luisroquette/notchagent">Source</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/luisroquette/social-machine-for-all">
