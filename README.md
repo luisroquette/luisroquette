@@ -97,12 +97,12 @@
       <p><a href="https://luisroquette.github.io/autoblog-template/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/autoblog-template#faça-uma-instalação-limpa">Set up</a> · <a href="https://github.com/luisroquette/autoblog-template">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/luisroquette/carousel-story-engine">
+      <a href="https://luisroquette.github.io/carousel-story-engine/">
         <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/carousel-engine.svg" alt="Carousel Story Engine" width="100%" />
       </a>
       <h3>Carousel Story Engine</h3>
       <p>An evidence-led AI skill for turning rough ideas into polished Instagram and LinkedIn carousels.</p>
-      <p><a href="https://github.com/luisroquette/carousel-story-engine#quick-start"><strong>Use the skill</strong></a> · <a href="https://github.com/luisroquette/carousel-story-engine#see-the-difference">Demo</a></p>
+      <p><a href="https://luisroquette.github.io/carousel-story-engine/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/carousel-story-engine#install-in-60-seconds">Install</a> · <a href="https://github.com/luisroquette/carousel-story-engine">Source</a></p>
     </td>
   </tr>
   <tr>
