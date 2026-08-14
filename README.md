@@ -17,6 +17,8 @@
   ·
   <a href="https://github.com/luisroquette/notchagent/releases/latest">Install NotchAgent</a>
   ·
+  <a href="https://luisroquette.github.io/memoryguard/">Install MemoryGuard</a>
+  ·
   <a href="https://github.com/luisroquette/motor-empiricus#quick-start">Use Motor Empiricus</a>
   ·
   <a href="https://github.com/luisroquette/social-machine-for-all#product-tour">See a demo</a>
@@ -27,6 +29,16 @@
 ## Original projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://luisroquette.github.io/memoryguard/">
+        <img src="https://raw.githubusercontent.com/luisroquette/memoryguard/main/docs/img/overview.png" alt="MemoryGuard live system overview" width="100%" />
+      </a>
+      <h3>MemoryGuard</h3>
+      <p>Free, local-first memory-pressure protection for developers running multiple heavy builds on a Mac. It safely serializes recognized work without deleting files, closing apps or sending telemetry.</p>
+      <p><a href="https://luisroquette.github.io/memoryguard/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/memoryguard/releases/latest">Download</a> · <a href="https://github.com/luisroquette/memoryguard">Source</a></p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/luisroquette/notchagent">
