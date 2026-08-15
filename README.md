@@ -21,6 +21,8 @@
   ·
   <a href="https://luisroquette.github.io/memoryguard/">Install MemoryGuard</a>
   ·
+  <a href="https://luisroquette.github.io/mac-storage-cleanup/">Get Mac Storage Cleanup</a>
+  ·
   <a href="https://github.com/luisroquette/motor-empiricus#quick-start">Use My_MailMKT_makes_Neil_Proud</a>
   ·
   <a href="https://github.com/luisroquette/social-machine-for-all#product-tour">See a demo</a>
@@ -49,6 +51,16 @@
       <h3>MemoryGuard</h3>
       <p>Free, local-first memory-pressure protection for developers running multiple heavy builds on a Mac. It safely serializes recognized work without deleting files, closing apps or sending telemetry.</p>
       <p><a href="https://luisroquette.github.io/memoryguard/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/memoryguard/releases/latest">Download</a> · <a href="https://github.com/luisroquette/memoryguard">Source</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://luisroquette.github.io/mac-storage-cleanup/">
+        <img src="https://raw.githubusercontent.com/luisroquette/mac-storage-cleanup/main/assets/hero.svg" alt="Mac Storage Cleanup — an evidence trail for reclaiming disk space" width="100%" />
+      </a>
+      <h3>Mac Storage Cleanup</h3>
+      <p>A guard-first Codex skill for reclaiming disk space on macOS. Every action starts as a read-only dry run, active processes and manifest files stay protected, and nothing skips recoverable staging before it is deleted.</p>
+      <p><a href="https://luisroquette.github.io/mac-storage-cleanup/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/mac-storage-cleanup#4-installation-2-minutes">Install</a> · <a href="https://github.com/luisroquette/mac-storage-cleanup">Source</a></p>
     </td>
   </tr>
   <tr>
