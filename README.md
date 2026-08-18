@@ -1,13 +1,11 @@
 <p align="center">
   <a href="https://cfgauss.com.br">
-    <img src="assets/capa.png" alt="Luis Roquette — CF Gauss · Applied AI Systems" width="100%" />
+    <img src="assets/banner.svg" alt="CF Gauss · Applied AI Systems" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <img src="assets/logo.png" alt="CF Gauss" width="52" style="vertical-align:middle" />
-  &nbsp;&nbsp;
-  <img src="assets/claude-partner.png" alt="Anthropic — Select Services Partner" height="52" style="vertical-align:middle" />
+  <img src="assets/claude-partner.png" alt="Anthropic — Select Services Partner" height="48" style="vertical-align:middle" />
 </p>
 
 <p align="center">
