@@ -33,6 +33,17 @@ Previously: RocketLabs (applied AI systems and developer tools), Resuma, NotchAg
 
 ---
 
+## Achievements
+
+<p align="center">
+  <img alt="Pull Shark x2" src="https://img.shields.io/badge/Pull_Shark-×2-7B2FBE?style=for-the-badge&labelColor=1A1524">
+  <img alt="Pair Extraordinaire x2" src="https://img.shields.io/badge/Pair_Extraordinaire-×2-C9A7FF?style=for-the-badge&labelColor=1A1524">
+  <img alt="YOLO" src="https://img.shields.io/badge/YOLO-×1-D5A62E?style=for-the-badge&labelColor=1A1524">
+</p>
+
+Earned the way achievements should be earned — by merging, reviewing and shipping.
+---
+
 ## Quickstart
 
 ```bash
