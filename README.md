@@ -25,13 +25,13 @@
 
 ## About me
 
-I am an **Anthropic Select Services Partner** and the builder behind the CF Gauss marketing stack. I spent years building production systems — landing pages that convert, email engines that follow up without becoming spam, tracking that attributes every sale to its channel — and then extracted each one into a portable, deterministic, MIT-licensed skill that any Claude Code or Codex user can clone and run.
+I build open-source marketing infrastructure — and I believe software should replace the expensive parts of an agency, not decorate them.
 
-The three skills form one funnel: the **LP engine** captures leads from evidence-backed pages, the **email cockpit** nurtures them under a shared throttle (one email per lead per day, guaranteed by a test suite), and the **tracking layer** attributes every CTA back to its channel. They interoperate through contracts — the tracking link owns the definition of a click; the others reference it. No vendor lock-in, no black box: every rule ships as Markdown contracts plus deterministic validators you can run in your terminal and your CI.
-
-What I believe: marketing software should be **auditable** (the rules are prose you can read), **deterministic** (same input, same verdict, forever), and **honest** (absence is never zero, and anti-fabrication beats a pretty page). The repositories below are the reference implementations of that belief.
-
-Previously: RocketLabs (applied AI systems and developer tools), Resuma, NotchAgent and other product experiments — the same discipline, different surfaces. Everything here follows one visual and engineering standard: auditable contracts, deterministic validators, honest metrics.
+- 🏗️ **What I build:** the full funnel as three MIT skills — [LP engine](https://github.com/luisroquette/My_LP_Makes_Neil_Proud) → [email cockpit](https://github.com/luisroquette/My_MailMKT_makes_Neil_Proud) → [tracking layer](https://github.com/luisroquette/My_UTMs_Make_Me_Proud). One contract, three skills, one funnel.
+- ✅ **Why trust it:** extracted from production systems at CF Gauss, where I am an **Anthropic Select Services Partner**. Every rule ships as Markdown contracts + deterministic validators with regression suites (13 cases, 107 tests) — you can run the guarantees yourself.
+- 🎯 **What I optimize for:** auditable rules, deterministic verdicts, honest metrics. Absence is never zero. Anti-fabrication beats a pretty page.
+- 🧪 **How it's built:** Claude Code + Codex, TypeScript + Python, Supabase + Vercel — with the CF Gauss visual standard (the three waves) across every dashboard, cover and README.
+- 🧠 **Where I teach:** the [Skool community (IA Brasil)](https://www.skool.com/inteligencia-artificial-brasil-1185/about) and the [Iniciação Lovable](https://cfgauss.com.br/cadastro?redirect=%2Fpainel%2Fcursos%2Finiciacao-lovable&utm_source=cfgauss&utm_medium=referral&utm_campaign=linktree) and [Iniciação Anthropic](https://cfgauss.com.br/cadastro?redirect=%2Fpainel%2Fcursos%2Finiciacao-anthropic&utm_source=cfgauss&utm_medium=referral&utm_campaign=linktree-claude) courses.
 
 ---
 
