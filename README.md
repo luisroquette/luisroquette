@@ -1,9 +1,13 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Luis Roquette — CF Gauss · Applied AI Systems" width="100%" />
+  <a href="https://cfgauss.com.br">
+    <img src="assets/capa.png" alt="Luis Roquette — CF Gauss · Applied AI Systems" width="100%" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="assets/logo.png" alt="CF Gauss" width="64" />
+  <img src="assets/logo.png" alt="CF Gauss" width="52" style="vertical-align:middle" />
+  &nbsp;&nbsp;
+  <img src="assets/claude-partner.png" alt="Anthropic — Select Services Partner" height="52" style="vertical-align:middle" />
 </p>
 
 <p align="center">
@@ -108,7 +112,9 @@ Deep dives: every repo's README documents the contracts in depth — the regress
 [![Website](https://img.shields.io/badge/cfgauss.com.br-7B2FBE?style=for-the-badge&labelColor=1A1524)](https://cfgauss.com.br)
 [![GitHub](https://img.shields.io/badge/GitHub-17131F?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1524)](https://github.com/luisroquette)
 
----
+<p align="center">
+  <img src="assets/divider.svg" alt="" width="100%" />
+</p>
 
 <p align="center">
   <sub>CF Gauss · applied AI systems · open-source marketing infrastructure · MIT everywhere</sub>
