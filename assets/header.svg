@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="onda1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A76EBA"/>
+      <stop offset="100%" stop-color="#5A336C"/>
+    </linearGradient>
+    <linearGradient id="onda2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B2FBE"/>
+      <stop offset="100%" stop-color="#4A2B5C"/>
+    </linearGradient>
+    <linearGradient id="onda3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A7FF"/>
+      <stop offset="100%" stop-color="#7B2FBE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="#1A1524"/>
+  <g opacity="0.9">
+    <path d="M0,300 Q200,240 400,290 T800,280 T1200,300 L1200,400 L0,400 Z" fill="url(#onda1)" opacity="0.55">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M0,300 Q200,240 400,290 T800,280 T1200,300 L1200,400 L0,400 Z;
+                M0,290 Q200,260 400,280 T800,300 T1200,290 L1200,400 L0,400 Z;
+                M0,300 Q200,240 400,290 T800,280 T1200,300 L1200,400 L0,400 Z"/>
+    </path>
+    <path d="M0,330 Q250,280 500,320 T1000,310 T1200,330 L1200,400 L0,400 Z" fill="url(#onda2)" opacity="0.7">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite"
+        values="M0,330 Q250,280 500,320 T1000,310 T1200,330 L1200,400 L0,400 Z;
+                M0,320 Q250,300 500,310 T1000,330 T1200,320 L1200,400 L0,400 Z;
+                M0,330 Q250,280 500,320 T1000,310 T1200,330 L1200,400 L0,400 Z"/>
+    </path>
+    <path d="M0,360 Q300,320 600,350 T1200,360 L1200,400 L0,400 Z" fill="url(#onda3)" opacity="0.85">
+      <animate attributeName="d" dur="11s" repeatCount="indefinite"
+        values="M0,360 Q300,320 600,350 T1200,360 L1200,400 L0,400 Z;
+                M0,350 Q300,340 600,340 T1200,350 L1200,400 L0,400 Z;
+                M0,360 Q300,320 600,350 T1200,360 L1200,400 L0,400 Z"/>
+    </path>
+  </g>
+  <text x="600" y="132" text-anchor="middle" font-family="Inter,-apple-system,sans-serif" font-size="15" font-weight="600" letter-spacing="5" fill="#C9A7FF">CF GAUSS · APPLIED AI SYSTEMS</text>
+  <text x="600" y="196" text-anchor="middle" font-family="Inter,-apple-system,sans-serif" font-size="54" font-weight="700" letter-spacing="-1.5" fill="#FFFFFF">LUIS ROQUETTE</text>
+  <text x="600" y="238" text-anchor="middle" font-family="Inter,-apple-system,sans-serif" font-size="17" fill="#C9A7FF" opacity="0.9">Open-source marketing infrastructure · Anthropic Select Services Partner</text>
+  <g text-anchor="middle" font-family="Inter,-apple-system,sans-serif" font-size="13" fill="#FFFFFF" opacity="0.7">
+    <text x="600" y="276">
+      <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="0.7;1;0.7"/>
+      LP engine → Email engine → Tracking — one contract, three skills, one funnel.
+    </text>
+  </g>
+</svg>

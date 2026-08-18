@@ -1,161 +1,115 @@
 <p align="center">
-  <a href="https://github.com/luisroquette/RocketLabs">
-    <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/rocketlabs-hero.svg" alt="RocketLabs — applied AI systems, developer tools and content automation" width="100%" />
-  </a>
+  <img src="assets/header.svg" alt="Luis Roquette — CF Gauss · Applied AI Systems" width="100%" />
 </p>
 
 <p align="center">
-  <strong>I build practical AI systems and open-source tools.</strong>
+  <img src="assets/logo.png" alt="CF Gauss" width="64" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/luisroquette/RocketLabs"><strong>Explore RocketLabs →</strong></a>
+  <strong>I build open-source marketing infrastructure: the landing-page engine, the email cockpit and the tracking layer — one contract, three skills, one funnel.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/luisroquette/RocketLabs">Project library</a>
-  ·
-  <a href="https://luisroquette.github.io/resuma/">Explore Resuma</a>
-  ·
-  <a href="https://luisroquette.github.io/notchagent/">Explore NotchAgent</a>
-  ·
-  <a href="https://luisroquette.github.io/memoryguard/">Install MemoryGuard</a>
-  ·
-  <a href="https://luisroquette.github.io/mac-storage-cleanup/">Get Mac Storage Cleanup</a>
-  ·
-  <a href="https://github.com/luisroquette/motor-empiricus#quick-start">Use My_MailMKT_makes_Neil_Proud</a>
-  ·
-  <a href="https://github.com/luisroquette/social-machine-for-all#product-tour">See a demo</a>
-  ·
-  <a href="https://www.linkedin.com/in/luisroquette/">LinkedIn</a>
+  <a href="https://github.com/luisroquette"><img alt="Followers" src="https://img.shields.io/github/followers/luisroquette?style=for-the-badge&color=7B2FBE&labelColor=1A1524"></a>
+  <a href="https://github.com/luisroquette?tab=repositories"><img alt="Stars" src="https://img.shields.io/github/stars/luisroquette?style=for-the-badge&color=C9A7FF&labelColor=1A1524"></a>
+  <a href="https://github.com/luisroquette/My_UTMs_Make_Me_Proud/blob/main/LICENSE"><img alt="MIT" src="https://img.shields.io/badge/license-MIT-2E7D32?style=for-the-badge&labelColor=1A1524"></a>
+  <img alt="Anthropic Select Services Partner" src="https://img.shields.io/badge/Anthropic-Select_Services_Partner-D5A62E?style=for-the-badge&labelColor=1A1524">
 </p>
 
-## Original projects
+---
 
-<table>
-  <tr>
-    <td colspan="2" valign="top">
-      <a href="https://luisroquette.github.io/resuma/">
-        <img src="https://raw.githubusercontent.com/luisroquette/resuma/main/media/resuma-hero.png" alt="Resuma — open-source intelligence for WhatsApp communities" width="100%" />
-      </a>
-      <h3>Resuma</h3>
-      <p>A provider-neutral, deterministic core for concise community summaries, sourced question search, configurable commands, participant events and campaigns. Clone it, connect your own authorized adapter and keep control of the data.</p>
-      <p><a href="https://luisroquette.github.io/resuma/"><strong>See the project</strong></a> · <a href="https://github.com/luisroquette/resuma#local-development">Run locally</a> · <a href="https://github.com/luisroquette/resuma">Source</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <a href="https://luisroquette.github.io/memoryguard/">
-        <img src="https://raw.githubusercontent.com/luisroquette/memoryguard/main/docs/img/overview.png" alt="MemoryGuard live system overview" width="100%" />
-      </a>
-      <h3>MemoryGuard</h3>
-      <p>Free, local-first memory-pressure protection for developers running multiple heavy builds on a Mac. It safely serializes recognized work without deleting files, closing apps or sending telemetry.</p>
-      <p><a href="https://luisroquette.github.io/memoryguard/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/memoryguard/releases/latest">Download</a> · <a href="https://github.com/luisroquette/memoryguard">Source</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <a href="https://luisroquette.github.io/mac-storage-cleanup/">
-        <img src="https://raw.githubusercontent.com/luisroquette/mac-storage-cleanup/main/assets/hero.svg" alt="Mac Storage Cleanup — an evidence trail for reclaiming disk space" width="100%" />
-      </a>
-      <h3>Mac Storage Cleanup</h3>
-      <p>A guard-first Codex skill for reclaiming disk space on macOS. Every action starts as a read-only dry run, active processes and manifest files stay protected, and nothing skips recoverable staging before it is deleted.</p>
-      <p><a href="https://luisroquette.github.io/mac-storage-cleanup/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/mac-storage-cleanup#4-installation-2-minutes">Install</a> · <a href="https://github.com/luisroquette/mac-storage-cleanup">Source</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://luisroquette.github.io/youre-always_on_my_mind-free/">
-        <img src="https://raw.githubusercontent.com/luisroquette/youre-always_on_my_mind-free/main/assets/readme/hero.svg" alt="You're Always on My Mind — visual memory cockpit" width="100%" />
-      </a>
-      <h3>You're Always on My Mind</h3>
-      <p>A local-first visual memory cockpit for claude-mem: explore connected projects, search offline, inspect quality signals and manage accumulated agent context without sending it to a paid model API.</p>
-      <p><a href="https://luisroquette.github.io/youre-always_on_my_mind-free/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/youre-always_on_my_mind-free#get-started">Get started</a> · <a href="https://github.com/luisroquette/youre-always_on_my_mind-free">Source</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://luisroquette.github.io/swen-mcp-server/">
-        <img src="https://swen.ia.br/api/og/guia?title=SWEN.AI+Entenda+e+use+IA&amp;badge=Brasil" alt="SWEN.AI — Brazilian AI intelligence for agents" width="100%" />
-      </a>
-      <h3>SWEN.AI MCP Server</h3>
-      <p>A public MCP endpoint that gives agents structured access to Brazilian AI news, model rankings, tools and tutorials. No API key or local installation required.</p>
-      <p><a href="https://luisroquette.github.io/swen-mcp-server/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/swen-mcp-server#connecting-an-mcp-client">Connect an agent</a> · <a href="https://github.com/luisroquette/swen-mcp-server">Source</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://luisroquette.github.io/notchagent/">
-        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/notchagent.svg" alt="NotchAgent" width="100%" />
-      </a>
-      <h3>NotchAgent</h3>
-      <p>Your AI-agent fuel gauge in the MacBook notch. Monitor quotas, burn rate and alerts locally.</p>
-      <p><a href="https://luisroquette.github.io/notchagent/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/notchagent/releases/latest">Install</a> · <a href="https://github.com/luisroquette/notchagent">Source</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://luisroquette.github.io/social-machine-for-all/">
-        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/social-machine.svg" alt="Social Machine for All" width="100%" />
-      </a>
-      <h3>Social Machine for All</h3>
-      <p>A self-hosted content operations system: discover, create, review, publish and learn with your data under control.</p>
-      <p><a href="https://luisroquette.github.io/social-machine-for-all/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/social-machine-for-all#quick-start">Get started</a> · <a href="https://github.com/luisroquette/social-machine-for-all">Source</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://luisroquette.github.io/autoblog-template/">
-        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/autoblog.svg" alt="My_Blog_Makes_Neil_Proud" width="100%" />
-      </a>
-      <h3>My_Blog_Makes_Neil_Proud</h3>
-      <p>A replicable Next.js and Supabase foundation for turning editorial ideas into SEO-ready articles.</p>
-      <p><a href="https://luisroquette.github.io/autoblog-template/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/autoblog-template#faça-uma-instalação-limpa">Set up</a> · <a href="https://github.com/luisroquette/autoblog-template">Source</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://luisroquette.github.io/carousel-story-engine/">
-        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/carousel-engine.svg" alt="Carousel Story Engine" width="100%" />
-      </a>
-      <h3>Carousel Story Engine</h3>
-      <p>An evidence-led AI skill for turning rough ideas into polished Instagram and LinkedIn carousels.</p>
-      <p><a href="https://luisroquette.github.io/carousel-story-engine/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/carousel-story-engine#install-in-60-seconds">Install</a> · <a href="https://github.com/luisroquette/carousel-story-engine">Source</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <a href="https://luisroquette.github.io/motor-empiricus/">
-        <img src="https://raw.githubusercontent.com/luisroquette/RocketLabs/main/assets/projects/motor-empiricus.svg" alt="My_MailMKT_makes_Neil_Proud" width="100%" />
-      </a>
-      <h3>My_MailMKT_makes_Neil_Proud</h3>
-      <p align="center">
-        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-weekly-digest.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-weekly-digest.png" alt="Real weekly digest" width="31%" /></a>
-        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-editorial-lesson.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-editorial-lesson.png" alt="Real editorial lesson" width="31%" /></a>
-        <a href="https://github.com/luisroquette/motor-empiricus/blob/main/assets/output-campaign-letter.png"><img src="https://raw.githubusercontent.com/luisroquette/motor-empiricus/main/assets/output-campaign-letter.png" alt="Real campaign letter" width="31%" /></a>
-      </p>
-      <p>A portable direct-response email system for turning captured leads into lessons, letters, follow-ups and compliant conversion offers.</p>
-      <p><a href="https://luisroquette.github.io/motor-empiricus/"><strong>See the product</strong></a> · <a href="https://github.com/luisroquette/motor-empiricus#quick-start">Set up</a> · <a href="https://github.com/luisroquette/motor-empiricus">Source</a></p>
-    </td>
-  </tr>
-</table>
+## About me
 
-## More original projects
+I am an **Anthropic Select Services Partner** and the builder behind the CF Gauss marketing stack. I spent years building production systems — landing pages that convert, email engines that follow up without becoming spam, tracking that attributes every sale to its channel — and then extracted each one into a portable, deterministic, MIT-licensed skill that any Claude Code or Codex user can clone and run.
 
-- **[RocketLabs](https://github.com/luisroquette/RocketLabs)** — the complete, bilingual project catalog.
-- **[Homebrew Tap](https://github.com/luisroquette/homebrew-tap)** — install NotchAgent with Homebrew.
-- **[coesa-auditoria](https://github.com/luisroquette/coesa-auditoria)** — invoice-audit landing page.
-- **[testecursor](https://github.com/luisroquette/testecursor)** — experimental workspace.
+The three skills form one funnel: the **LP engine** captures leads from evidence-backed pages, the **email cockpit** nurtures them under a shared throttle (one email per lead per day, guaranteed by a test suite), and the **tracking layer** attributes every CTA back to its channel. They interoperate through contracts — the tracking link owns the definition of a click; the others reference it. No vendor lock-in, no black box: every rule ships as Markdown contracts plus deterministic validators you can run in your terminal and your CI.
 
-## Recommended projects
+What I believe: marketing software should be **auditable** (the rules are prose you can read), **deterministic** (same input, same verdict, forever), and **honest** (absence is never zero, and anti-fabrication beats a pretty page). The repositories below are the reference implementations of that belief.
 
-Forks I follow and recommend. The original projects retain primary authorship and maintenance.
+Previously: RocketLabs (applied AI systems and developer tools), Resuma, NotchAgent and other product experiments — the same discipline, different surfaces.
 
-- **[MarkItDown](https://github.com/luisroquette/markitdown)** — convert files and office documents to Markdown.
-- **[Graphify](https://github.com/luisroquette/graphify)** — turn codebases and docs into queryable knowledge graphs.
-- **[Awesome MCP Servers](https://github.com/luisroquette/awesome-mcp-servers)** — curated collection of MCP servers.
-- **[Claude Usage Stick](https://github.com/luisroquette/claude-usage-stick-SVGL)** — real-time Claude Code rate-limit monitor for ESP32 boards.
-- **[MoneyPrinterTurbo](https://github.com/luisroquette/MoneyPrinterTurbo)** — generate short videos with AI.
-- **[Awesome AI Tools](https://github.com/luisroquette/awesome-ai-tools)** — curated AI tools directory.
-- **[GhostTrack](https://github.com/luisroquette/GhostTrack)** — location and mobile-number tracking tool.
-- **[video-use-claude-skill](https://github.com/luisroquette/video-use-claude-skill)** — video-oriented Claude skill.
-- **[mcp-dev-brasil](https://github.com/luisroquette/mcp-dev-brasil)** — MCP servers for Brazilian services.
-- **[500 AI Agents Projects](https://github.com/luisroquette/500-AI-Agents-Projects)** — AI-agent use cases and open-source references.
+---
+
+## Quickstart
+
+```bash
+# The tracking layer — every marketing link, tracked and attributable
+git clone https://github.com/luisroquette/My_UTMs_Make_Me_Proud.git
+
+# The landing-page engine — brief, create, audit and publish
+git clone https://github.com/luisroquette/My_LP_Makes_Neil_Proud.git
+
+# The email cockpit — throttle, dispatcher, outbox and dashboard
+git clone https://github.com/luisroquette/My_MailMKT_makes_Neil_Proud.git
+```
+
+All three are MIT, zero runtime dependencies, with deterministic validators and regression suites.
+
+---
+
+## Flagship projects
+
+| Project | What it is | Highlights |
+|---|---|---|
+| [**My_UTMs_Make_Me_Proud**](https://github.com/luisroquette/My_UTMs_Make_Me_Proud) | The tracking layer — creation, click, attribution, health and metrics as one auditable cycle | 13 regression cases · query-free destinations · SSRF-guarded health · first/last click attribution |
+| [**My_LP_Makes_Neil_Proud**](https://github.com/luisroquette/My_LP_Makes_Neil_Proud) | The landing-page engine — six models, four gates, anti-fabrication above everything | 6 LP models · 12-criterion audit rubric · publication gate never bypassed |
+| [**My_MailMKT_makes_Neil_Proud**](https://github.com/luisroquette/My_MailMKT_makes_Neil_Proud) | The email cockpit — shared throttle, single dispatcher, durable outbox, dashboard demo | 107 tests · 1 email/lead/day guaranteed · 5 motors, 1 cron · cockpit demo |
+| [**RocketLabs**](https://github.com/luisroquette/RocketLabs) | Applied AI systems and developer tools — the earlier product era | Resuma, NotchAgent and content automation |
+
+Deep dives: every repo's README documents the contracts in depth — the regression ledgers, the models, the gates, the fidelity rules. Start with the one that matches your layer of the funnel.
+
+---
+
+## Tech stack
+
+### AI & Agents
+
+[![Claude Code](https://img.shields.io/badge/Claude_Code-17131F?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=1A1524)](https://claude.com/claude-code)
+[![Codex](https://img.shields.io/badge/OpenAI_Codex-17131F?style=for-the-badge&logo=openai&logoColor=white&labelColor=1A1524)](https://openai.com/codex)
+[![Claude API](https://img.shields.io/badge/Claude_API-7B2FBE?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=1A1524)](https://docs.anthropic.com)
+[![gpt-image](https://img.shields.io/badge/GPT_Image-7B2FBE?style=for-the-badge&logo=openai&logoColor=white&labelColor=1A1524)](https://openai.com)
+[![Higgsfield](https://img.shields.io/badge/Higgsfield_Video-7B2FBE?style=for-the-badge&labelColor=1A1524)](https://higgsfield.ai)
+[![MCP](https://img.shields.io/badge/MCP_Protocol-7B2FBE?style=for-the-badge&labelColor=1A1524)](https://modelcontextprotocol.io)
+
+### Marketing & Data
+
+[![DataForSEO](https://img.shields.io/badge/DataForSEO-C9A7FF?style=for-the-badge&labelColor=1A1524)](https://dataforseo.com)
+[![Meta Graph API](https://img.shields.io/badge/Meta_Graph_API-C9A7FF?style=for-the-badge&labelColor=1A1524)](https://developers.facebook.com)
+[![Instagram API](https://img.shields.io/badge/Instagram_API-C9A7FF?style=for-the-badge&labelColor=1A1524)](https://developers.facebook.com/docs/instagram-platform)
+[![WhatsApp API](https://img.shields.io/badge/WhatsApp_API-C9A7FF?style=for-the-badge&labelColor=1A1524)](https://business.whatsapp.com)
+[![Telegram Bot API](https://img.shields.io/badge/Telegram_Bot_API-C9A7FF?style=for-the-badge&labelColor=1A1524)](https://core.telegram.org/bots/api)
+[![X API](https://img.shields.io/badge/X_API-C9A7FF?style=for-the-badge&labelColor=1A1524)](https://developer.x.com)
+
+### Languages & Web
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1A1524)](https://www.typescriptlang.org)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1A1524)](https://www.python.org)
+[![Next.js](https://img.shields.io/badge/Next.js-17131F?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=1A1524)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=1A1524)](https://react.dev)
+[![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=1A1524)](https://tailwindcss.com)
+[![shadcn/ui](https://img.shields.io/badge/shadcn/ui-17131F?style=for-the-badge&labelColor=1A1524)](https://ui.shadcn.com)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=1A1524)](https://vite.dev)
+
+### Infrastructure & Quality
+
+[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=black&labelColor=1A1524)](https://supabase.com)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1A1524)](https://www.postgresql.org)
+[![Resend](https://img.shields.io/badge/Resend-17131F?style=for-the-badge&labelColor=1A1524)](https://resend.com)
+[![Vercel](https://img.shields.io/badge/Vercel-17131F?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1A1524)](https://vercel.com)
+[![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white&labelColor=1A1524)](https://vitest.dev)
+[![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=1A1524)](https://playwright.dev)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white&labelColor=1A1524)](https://ffmpeg.org)
+
+---
+
+## Connect
+
+[![Website](https://img.shields.io/badge/cfgauss.com.br-7B2FBE?style=for-the-badge&labelColor=1A1524)](https://cfgauss.com.br)
+[![GitHub](https://img.shields.io/badge/GitHub-17131F?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1524)](https://github.com/luisroquette)
+
+---
 
 <p align="center">
-  <strong>Build something useful. Make it understandable. Put it into the world.</strong>
+  <sub>CF Gauss · applied AI systems · open-source marketing infrastructure · MIT everywhere</sub>
 </p>
