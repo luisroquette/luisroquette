@@ -27,6 +27,14 @@
 
 I build open-source marketing infrastructure — and I believe software should replace the expensive parts of an agency, not decorate them.
 
+
+<p align="center">
+  🎖️ <strong>International High IQ Society Member</strong> · 95 percentile &nbsp;|&nbsp;
+  🏆 <strong>Intertel Member</strong> · 99 percentile &nbsp;|&nbsp;
+  💜 <strong>Lovable Ambassador</strong> &nbsp;|&nbsp;
+  ☀️ <strong>Claude Partner Network</strong>
+</p>
+
 - 🏗️ **What I build:** the full funnel as three MIT skills — [LP engine](https://github.com/luisroquette/My_LP_Makes_Neil_Proud) → [email cockpit](https://github.com/luisroquette/My_MailMKT_makes_Neil_Proud) → [tracking layer](https://github.com/luisroquette/My_UTMs_Make_Me_Proud). One contract, three skills, one funnel.
 - ✅ **Why trust it:** extracted from production systems at CF Gauss, where I am an **Anthropic Select Services Partner**. Every rule ships as Markdown contracts + deterministic validators with regression suites (13 cases, 107 tests) — you can run the guarantees yourself.
 - 🎯 **What I optimize for:** auditable rules, deterministic verdicts, honest metrics. Absence is never zero. Anti-fabrication beats a pretty page.
