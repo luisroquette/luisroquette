@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://cfgauss.com.br">
-    <img src="assets/banner.svg" alt="CF Gauss · Applied AI Systems" width="100%" />
+    <img src="assets/banner.png" alt="CF Gauss · Applied AI Systems" width="100%" />
   </a>
 </p>
 
