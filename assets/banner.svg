@@ -27,5 +27,5 @@
     <text x="505" y="59" text-anchor="middle" fill="#D5A62E">Anthropic Partner</text>
   </g>
   <!-- logo no canto inferior direito -->
-  <image x="1140" y="140" width="48" height="48" xlink:href="assets/logo.png"/>
+  <image x="1140" y="140" width="48" height="48" xlink:href="https://raw.githubusercontent.com/luisroquette/luisroquette/main/assets/logo.png"/>
 </svg>
