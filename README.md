@@ -44,7 +44,7 @@ git clone https://github.com/luisroquette/My_LP_Makes_Neil_Proud.git
 git clone https://github.com/luisroquette/My_MailMKT_makes_Neil_Proud.git
 ```
 
-All three are MIT, zero runtime dependencies, with deterministic validators and regression suites.
+All three are MIT, zero runtime dependencies, with deterministic validators and regression suites — clone one or clone all three.
 
 ---
 
