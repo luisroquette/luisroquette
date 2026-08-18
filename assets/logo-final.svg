@@ -1,39 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="200" viewBox="0 0 1200 200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16000 16000">
   <defs>
-    <linearGradient id="curva" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#C9A7FF"/>
-      <stop offset="100%" stop-color="#7B2FBE"/>
-    </linearGradient>
-    <linearGradient id="curvaFundo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#5A336C" stop-opacity="0.12"/>
+    <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A76EBA"/>
+      <stop offset="100%" stop-color="#5A336C"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="200" fill="#1A1524"/>
-  <!-- curva gaussiana -->
-  <path d="M120,200 C300,40 480,10 600,92 C720,10 900,40 1080,200 Z" fill="url(#curvaFundo)"/>
-  <path d="M120,200 C300,40 480,10 600,92 C720,10 900,40 1080,200"
-        fill="none" stroke="url(#curva)" stroke-width="3"/>
-  <circle cx="600" cy="92" r="5" fill="#C9A7FF"/>
-  <linearGradient id="lgLogo" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#A76EBA"/>
-    <stop offset="100%" stop-color="#5A336C"/>
-  </linearGradient>
-  <!-- badges -->
-  <g font-family="Inter,-apple-system,sans-serif" font-size="15" font-weight="600">
-    <rect x="48" y="40" rx="14" width="76" height="28" fill="#2A2338" stroke="#C9A7FF" stroke-opacity="0.4"/>
-    <text x="86" y="59" text-anchor="middle" fill="#C9A7FF">MIT</text>
-    <rect x="132" y="40" rx="14" width="132" height="28" fill="#2A2338" stroke="#C9A7FF" stroke-opacity="0.4"/>
-    <text x="198" y="59" text-anchor="middle" fill="#E9E3F5">Claude Code</text>
-    <rect x="272" y="40" rx="14" width="110" height="28" fill="#2A2338" stroke="#C9A7FF" stroke-opacity="0.4"/>
-    <text x="327" y="59" text-anchor="middle" fill="#E9E3F5">Codex</text>
-    <rect x="390" y="40" rx="14" width="230" height="28" fill="#2A2338" stroke="#D5A62E" stroke-opacity="0.5"/>
-    <text x="505" y="59" text-anchor="middle" fill="#D5A62E">Anthropic Partner</text>
-  </g>
-
-</svg>
-  <!-- logo CF Gauss — vetorizada do original (potrace) -->
-  <g transform="translate(1104,116) scale(0.0125)" fill="url(#lgLogo)">
+  <g fill="url(#lg)">
 <path d="M9830 14800 c-376 -71 -638 -215 -956 -526 -327 -320 -632 -764
 -1007 -1464 -125 -232 -257 -503 -427 -870 -32 -69 -75 -161 -95 -205 -38 -82
 -132 -291 -305 -680 -54 -121 -136 -301 -182 -400 -47 -99 -129 -277 -184
