@@ -35,15 +35,6 @@ I build open-source marketing infrastructure — and I believe software should r
 
 ---
 
-## Achievements
-
-- 🦈 **Pull Shark ×2** — merged pull requests that other developers opened. ![Pull Shark](https://img.shields.io/badge/Pull_Shark-×2-7B2FBE?style=flat-square&labelColor=1A1524)
-- 🤝 **Pair Extraordinaire ×2** — co-authored commits, merged together. ![Pair Extraordinaire](https://img.shields.io/badge/Pair_Extraordinaire-×2-C9A7FF?style=flat-square&labelColor=1A1524)
-- ⚡ **YOLO** — merged a pull request without review. The name says it all. ![YOLO](https://img.shields.io/badge/YOLO-×1-D5A62E?style=flat-square&labelColor=1A1524)
-
-Earned the way achievements should be earned — by merging, reviewing and shipping.
----
-
 ## Quickstart
 
 ```bash
