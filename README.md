@@ -5,6 +5,8 @@
 </p>
 
 <p align="center">
+  <img src="assets/logo.png" alt="CF Gauss" width="48" style="vertical-align:middle" />
+  &nbsp;&nbsp;
   <img src="assets/claude-partner.png" alt="Anthropic — Select Services Partner" height="48" style="vertical-align:middle" />
 </p>
 
