@@ -27,7 +27,7 @@ The three skills form one funnel: the **LP engine** captures leads from evidence
 
 What I believe: marketing software should be **auditable** (the rules are prose you can read), **deterministic** (same input, same verdict, forever), and **honest** (absence is never zero, and anti-fabrication beats a pretty page). The repositories below are the reference implementations of that belief.
 
-Previously: RocketLabs (applied AI systems and developer tools), Resuma, NotchAgent and other product experiments — the same discipline, different surfaces.
+Previously: RocketLabs (applied AI systems and developer tools), Resuma, NotchAgent and other product experiments — the same discipline, different surfaces. Everything here follows one visual and engineering standard: auditable contracts, deterministic validators, honest metrics.
 
 ---
 
