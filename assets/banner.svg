@@ -28,7 +28,7 @@
     <text x="505" y="59" text-anchor="middle" fill="#D5A62E">Anthropic Partner</text>
   </g>
   <!-- logo CF Gauss — vetorizada do original -->
-  <g transform="translate(1096,108) scale(-0.04,-0.04)" fill="url(#lgLogo)">
+  <g transform="translate(1096,108) scale(0.04,-0.04)" fill="url(#lgLogo)">
 <path d="M924 1454 c-52 -33 -106 -108 -159 -219 -24 -49 -72 -151 -108 -226
 -96 -202 -170 -303 -268 -365 -61 -38 -173 -74 -256 -81 -72 -6 -103 -16 -90
 -29 4 -4 91 -7 194 -7 355 1 439 46 636 345 52 80 112 162 133 183 75 73 171
