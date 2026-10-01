@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://github.com/luisroquette"><img alt="Followers" src="https://img.shields.io/github/followers/luisroquette?style=for-the-badge&color=7B2FBE&labelColor=1A1524"></a>
   <a href="https://github.com/luisroquette?tab=repositories"><img alt="Stars" src="https://img.shields.io/github/stars/luisroquette?style=for-the-badge&color=C9A7FF&labelColor=1A1524"></a>
-  <a href="https://github.com/luisroquette/My_UTMs_Make_Me_Proud/blob/main/LICENSE"><img alt="MIT" src="https://img.shields.io/badge/license-MIT-2E7D32?style=for-the-badge&labelColor=1A1524"></a>
+  <a href="https://github.com/luisroquette-labs/My_UTMs_Make_Me_Proud/blob/main/LICENSE"><img alt="MIT" src="https://img.shields.io/badge/license-MIT-2E7D32?style=for-the-badge&labelColor=1A1524"></a>
   <img alt="Anthropic Select Services Partner" src="https://img.shields.io/badge/Anthropic-Select_Services_Partner-D5A62E?style=for-the-badge&labelColor=1A1524">
 </p>
 
@@ -35,7 +35,7 @@ I build open-source marketing infrastructure — and I believe software should r
   ☀️ <strong>Claude Partner Network</strong>
 </p>
 
-- 🏗️ **What I build:** the full funnel as three MIT skills — [LP engine](https://github.com/luisroquette/My_LP_Makes_Neil_Proud) → [email cockpit](https://github.com/luisroquette/My_MailMKT_makes_Neil_Proud) → [tracking layer](https://github.com/luisroquette/My_UTMs_Make_Me_Proud). One contract, three skills, one funnel.
+- 🏗️ **What I build:** the full funnel as three MIT skills — [LP engine](https://github.com/luisroquette-labs/My_LP_Makes_Neil_Proud) → [email cockpit](https://github.com/luisroquette-labs/My_MailMKT_makes_Neil_Proud) → [tracking layer](https://github.com/luisroquette-labs/My_UTMs_Make_Me_Proud). One contract, three skills, one funnel.
 - ✅ **Why trust it:** extracted from production systems at CF Gauss, where I am an **Anthropic Select Services Partner**. Every rule ships as Markdown contracts + deterministic validators with regression suites (13 cases, 107 tests) — you can run the guarantees yourself.
 - 🎯 **What I optimize for:** auditable rules, deterministic verdicts, honest metrics. Absence is never zero. Anti-fabrication beats a pretty page.
 - 🧪 **How it's built:** Claude Code + Codex, TypeScript + Python, Supabase + Vercel — with the CF Gauss visual standard (the three waves) across every dashboard, cover and README.
@@ -47,13 +47,13 @@ I build open-source marketing infrastructure — and I believe software should r
 
 ```bash
 # The tracking layer — every marketing link, tracked and attributable
-git clone https://github.com/luisroquette/My_UTMs_Make_Me_Proud.git
+git clone https://github.com/luisroquette-labs/My_UTMs_Make_Me_Proud.git
 
 # The landing-page engine — brief, create, audit and publish
-git clone https://github.com/luisroquette/My_LP_Makes_Neil_Proud.git
+git clone https://github.com/luisroquette-labs/My_LP_Makes_Neil_Proud.git
 
 # The email cockpit — throttle, dispatcher, outbox and dashboard
-git clone https://github.com/luisroquette/My_MailMKT_makes_Neil_Proud.git
+git clone https://github.com/luisroquette-labs/My_MailMKT_makes_Neil_Proud.git
 ```
 
 All three are MIT, zero runtime dependencies, with deterministic validators and regression suites — clone one or clone all three.
@@ -64,10 +64,10 @@ All three are MIT, zero runtime dependencies, with deterministic validators and 
 
 | Project | What it is | Highlights |
 |---|---|---|
-| [**My_UTMs_Make_Me_Proud**](https://github.com/luisroquette/My_UTMs_Make_Me_Proud) | The tracking layer — creation, click, attribution, health and metrics as one auditable cycle | 13 regression cases · query-free destinations · SSRF-guarded health · first/last click attribution |
-| [**My_LP_Makes_Neil_Proud**](https://github.com/luisroquette/My_LP_Makes_Neil_Proud) | The landing-page engine — six models, four gates, anti-fabrication above everything | 6 LP models · 12-criterion audit rubric · publication gate never bypassed |
-| [**My_MailMKT_makes_Neil_Proud**](https://github.com/luisroquette/My_MailMKT_makes_Neil_Proud) | The email cockpit — shared throttle, single dispatcher, durable outbox, dashboard demo | 107 tests · 1 email/lead/day guaranteed · 5 motors, 1 cron · cockpit demo |
-| [**RocketLabs**](https://github.com/luisroquette/RocketLabs) | Applied AI systems and developer tools — the earlier product era | Resuma, NotchAgent and content automation |
+| [**My_UTMs_Make_Me_Proud**](https://github.com/luisroquette-labs/My_UTMs_Make_Me_Proud) | The tracking layer — creation, click, attribution, health and metrics as one auditable cycle | 13 regression cases · query-free destinations · SSRF-guarded health · first/last click attribution |
+| [**My_LP_Makes_Neil_Proud**](https://github.com/luisroquette-labs/My_LP_Makes_Neil_Proud) | The landing-page engine — six models, four gates, anti-fabrication above everything | 6 LP models · 12-criterion audit rubric · publication gate never bypassed |
+| [**My_MailMKT_makes_Neil_Proud**](https://github.com/luisroquette-labs/My_MailMKT_makes_Neil_Proud) | The email cockpit — shared throttle, single dispatcher, durable outbox, dashboard demo | 107 tests · 1 email/lead/day guaranteed · 5 motors, 1 cron · cockpit demo |
+| [**RocketLabs**](https://github.com/luisroquette-labs/RocketLabs) | Applied AI systems and developer tools — the earlier product era | Resuma, NotchAgent and content automation |
 
 Deep dives: every repo's README documents the contracts in depth — the regression ledgers, the models, the gates, the fidelity rules. Start with the one that matches your layer of the funnel.
 
