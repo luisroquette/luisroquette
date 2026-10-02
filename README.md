@@ -122,7 +122,7 @@ Deep dives: every repo's README documents the contracts in depth — the regress
   <a href="https://github.com/luisroquette"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-17131F?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1524"></a>
   <a href="https://www.instagram.com/luisroquette.ia"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1A1524"></a>
   <a href="https://x.com/luisroquette"><img alt="X" src="https://img.shields.io/badge/X-17131F?style=for-the-badge&logo=x&logoColor=white&labelColor=1A1524"></a>
-  <a href="https://www.youtube.com/@LFRProjects"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1A1524"></a>
+  <a href="https://www.youtube.com/@luisroquette_ia"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1A1524"></a>
   <a href="https://www.tiktok.com/@luisroquette.ia"><img alt="TikTok" src="https://img.shields.io/badge/TikTok-17131F?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1A1524"></a>
   <a href="https://www.linkedin.com/in/luisroquette/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1524"></a>
   <a href="https://www.skool.com/inteligencia-artificial-brasil-1185/about"><img alt="Skool — IA Brasil" src="https://img.shields.io/badge/Skool-IA_Brasil-C9A7FF?style=for-the-badge&labelColor=1A1524"></a>
