@@ -43,7 +43,7 @@ def comment_lines(source: str, suffix: str) -> list[int]:
                 elif child.type in {"html_inline", "text"}:
                     if child.type == "text" and "<!--" in child.content:
                         offset = token.content.find("<!--", cursor)
-                        while offset > 0 and token.content[offset - 1] == "\\":
+                        while offset >= 0 and (len(token.content[:offset]) - len(token.content[:offset].rstrip("\\"))) % 2:
                             offset = token.content.find("<!--", offset + 4)
                     else:
                         offset = token.content.find(child.content, cursor)

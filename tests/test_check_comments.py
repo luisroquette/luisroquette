@@ -47,6 +47,10 @@ class CommentLinesTest(unittest.TestCase):
     def test_entity_literal(self):
         self.assertEqual(comment_lines("A &lt;!-- incomplete", ".md"), [])
 
+    def test_backslash_parity(self):
+        self.assertEqual(comment_lines("x \\<!-- incomplete", ".md"), [])
+        self.assertEqual(comment_lines("x \\\\<!-- incomplete", ".md"), [1])
+
     def test_multiline_paragraph_location(self):
         self.assertEqual(comment_lines("first\nsecond <!-- real -->", ".md"), [2])
 
