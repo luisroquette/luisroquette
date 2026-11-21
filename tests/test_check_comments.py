@@ -38,11 +38,17 @@ class CommentLinesTest(unittest.TestCase):
     def test_unterminated_html_comment_after_tag(self):
         self.assertEqual(comment_lines("<div>\n<!-- note\n# Profile\n", ".md"), [2])
 
+    def test_unterminated_html_comment_in_paragraph(self):
+        self.assertEqual(comment_lines("first\nsecond <!-- incomplete", ".md"), [2])
+
     def test_multiline_paragraph_location(self):
         self.assertEqual(comment_lines("first\nsecond <!-- real -->", ".md"), [2])
 
     def test_identical_inline_comments_on_separate_lines(self):
         self.assertEqual(comment_lines("a <!-- x -->\nb <!-- x -->", ".md"), [1, 2])
+
+    def test_inline_code_before_identical_comment(self):
+        self.assertEqual(comment_lines("`<!-- x -->`\nreal <!-- x -->", ".md"), [2])
 
     def test_tracked_uppercase_extension(self):
         with tempfile.TemporaryDirectory() as directory:

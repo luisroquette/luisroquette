@@ -34,13 +34,24 @@ def comment_lines(source: str, suffix: str) -> list[int]:
         elif token.type == "inline":
             cursor = 0
             for child in token.children or []:
-                if child.type == "html_inline":
+                if child.type in {"softbreak", "hardbreak"}:
+                    cursor = token.content.find("\n", cursor) + 1
+                elif child.type == "code_inline":
+                    opening = token.content.find(child.markup, cursor)
+                    closing = token.content.find(child.markup, opening + len(child.markup))
+                    cursor = closing + len(child.markup)
+                elif child.type in {"html_inline", "text"}:
+                    offset = token.content.find(child.content, cursor)
+                    if offset < 0:
+                        continue
+                    cursor = offset + len(child.content)
                     html = CommentParser()
                     html.feed(child.content)
-                    offset = token.content.find(child.content, cursor)
-                    cursor = offset + len(child.content)
                     start = token.map[0] + token.content[:offset].count("\n")
-                    lines.extend(start + line for line in html.lines)
+                    if child.type == "html_inline":
+                        lines.extend(start + line for line in html.lines)
+                    elif html.rawdata.startswith("<!--"):
+                        lines.append(start + html.getpos()[0])
     return lines
 
 
