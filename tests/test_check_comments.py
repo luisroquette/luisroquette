@@ -41,6 +41,12 @@ class CommentLinesTest(unittest.TestCase):
     def test_unterminated_html_comment_in_paragraph(self):
         self.assertEqual(comment_lines("first\nsecond <!-- incomplete", ".md"), [2])
 
+    def test_unterminated_comment_after_entity(self):
+        self.assertEqual(comment_lines("A &amp; B <!-- incomplete", ".md"), [1])
+
+    def test_entity_literal(self):
+        self.assertEqual(comment_lines("A &lt;!-- incomplete", ".md"), [])
+
     def test_multiline_paragraph_location(self):
         self.assertEqual(comment_lines("first\nsecond <!-- real -->", ".md"), [2])
 

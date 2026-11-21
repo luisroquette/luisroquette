@@ -41,17 +41,22 @@ def comment_lines(source: str, suffix: str) -> list[int]:
                     closing = token.content.find(child.markup, opening + len(child.markup))
                     cursor = closing + len(child.markup)
                 elif child.type in {"html_inline", "text"}:
-                    offset = token.content.find(child.content, cursor)
+                    if child.type == "text" and "<!--" in child.content:
+                        offset = token.content.find("<!--", cursor)
+                        while offset > 0 and token.content[offset - 1] == "\\":
+                            offset = token.content.find("<!--", offset + 4)
+                    else:
+                        offset = token.content.find(child.content, cursor)
                     if offset < 0:
                         continue
-                    cursor = offset + len(child.content)
+                    cursor = offset + (4 if child.type == "text" and "<!--" in child.content else len(child.content))
                     html = CommentParser()
                     html.feed(child.content)
                     start = token.map[0] + token.content[:offset].count("\n")
                     if child.type == "html_inline":
                         lines.extend(start + line for line in html.lines)
                     elif html.rawdata.startswith("<!--"):
-                        lines.append(start + html.getpos()[0])
+                        lines.append(start + 1)
     return lines
 
 
