@@ -29,12 +29,16 @@ def comment_lines(source: str, suffix: str) -> list[int]:
             html = CommentParser()
             html.feed(token.content)
             lines.extend(token.map[0] + line for line in html.lines)
+            if token.content.lstrip().startswith("<!--") and "-->" not in token.content:
+                lines.append(token.map[0] + 1)
         elif token.type == "inline":
             for child in token.children or []:
                 if child.type == "html_inline":
                     html = CommentParser()
                     html.feed(child.content)
-                    lines.extend(token.map[0] + line for line in html.lines)
+                    offset = token.content.find(child.content)
+                    start = token.map[0] + token.content[:offset].count("\n")
+                    lines.extend(start + line for line in html.lines)
     return lines
 
 

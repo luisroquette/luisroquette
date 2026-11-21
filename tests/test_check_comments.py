@@ -32,6 +32,12 @@ class CommentLinesTest(unittest.TestCase):
     def test_html_attribute_literal(self):
         self.assertEqual(comment_lines('See <span title="<!-- example -->">label</span>.', ".md"), [])
 
+    def test_unterminated_html_comment(self):
+        self.assertEqual(comment_lines("<!-- temporary note\n# Profile\n", ".md"), [1])
+
+    def test_multiline_paragraph_location(self):
+        self.assertEqual(comment_lines("first\nsecond <!-- real -->", ".md"), [2])
+
     def test_tracked_uppercase_extension(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "README.MD"
