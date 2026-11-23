@@ -4,6 +4,9 @@ import subprocess
 import sys
 from xml.parsers import expat
 from markdown_it import MarkdownIt
+from pygments import lex
+from pygments.lexers import BashLexer, PythonLexer
+from pygments.token import Comment, String, Text
 
 
 class CommentParser(HTMLParser):
@@ -15,7 +18,88 @@ class CommentParser(HTMLParser):
         self.lines.append(self.getpos()[0])
 
 
+def shell_heredoc_delimiters(line: str) -> list[tuple[str, bool]]:
+    tokens = list(lex(line, BashLexer()))
+    delimiters = []
+    offset = 0
+    for position, (kind, value) in enumerate(tokens):
+        candidate = (
+            kind in Text and value == "<" and position + 1 < len(tokens)
+            and tokens[position + 1][0] in Text and tokens[position + 1][1] == "<"
+        ) or (kind is String and value.startswith("<<"))
+        if candidate and (offset == 0 or line[offset - 1] != "<"):
+            start = offset + 2
+            if start < len(line) and line[start] != "<":
+                strip_tabs = line[start] == "-"
+                if strip_tabs:
+                    start += 1
+                while start < len(line) and line[start] in " \t":
+                    start += 1
+                word = []
+                quote = None
+                while start < len(line):
+                    character = line[start]
+                    if quote:
+                        if character == quote:
+                            quote = None
+                        elif character == "\\" and quote == '"' and start + 1 < len(line):
+                            start += 1
+                            word.append(line[start])
+                        else:
+                            word.append(character)
+                    elif character in " \t\r\n;|&()<>":
+                        break
+                    elif character == "$" and start + 1 < len(line) and line[start + 1] == "'":
+                        quote = "'"
+                        start += 1
+                    elif character in "\"'":
+                        quote = character
+                    elif character == "\\" and start + 1 < len(line):
+                        start += 1
+                        word.append(line[start])
+                    else:
+                        word.append(character)
+                    start += 1
+                if quote or not word:
+                    raise ValueError("invalid shell heredoc delimiter")
+                delimiters.append(("".join(word), strip_tabs))
+        offset += len(value)
+    return delimiters
+
+
+def mask_shell_heredocs(source: str) -> str:
+    lines = source.splitlines(keepends=True)
+    pending: list[tuple[str, bool]] = []
+    for index, line in enumerate(lines):
+        if pending:
+            delimiter, strip_tabs = pending[0]
+            candidate = line.rstrip("\r\n")
+            if strip_tabs:
+                candidate = candidate.lstrip("\t")
+            if candidate == delimiter:
+                pending.pop(0)
+            else:
+                lines[index] = "".join("\n" if character == "\n" else " " for character in line)
+            continue
+
+        pending.extend(shell_heredoc_delimiters(line))
+    if pending:
+        raise ValueError("unterminated shell heredoc")
+    return "".join(lines)
+
+
 def comment_lines(source: str, suffix: str) -> list[int]:
+    if suffix.lower() in {".py", ".sh"}:
+        lexer = PythonLexer() if suffix.lower() == ".py" else BashLexer()
+        if suffix.lower() == ".sh":
+            source = mask_shell_heredocs(source)
+        lines = []
+        line = 1
+        for token, value in lex(source, lexer):
+            if token in Comment and not (line == 1 and value.startswith("#!")):
+                lines.append(line)
+            line += value.count("\n")
+        return lines
     if suffix.lower() == ".svg":
         lines = []
         parser = expat.ParserCreate()
@@ -65,13 +149,13 @@ def main() -> int:
     failures = [
         f"{path}:{number}"
         for path in tracked
-        if path and Path(path).suffix.lower() in {".md", ".svg"}
+        if path and Path(path).suffix.lower() in {".md", ".svg", ".py", ".sh"}
         for number in comment_lines(Path(path).read_text(), Path(path).suffix)
     ]
     if failures:
         print("HTML/XML comments are forbidden:\n" + "\n".join(failures), file=sys.stderr)
         return 1
-    print("Comment ratchet: zero HTML/XML comments in tracked Markdown and SVG files.")
+    print("Comment ratchet: zero comments in tracked Markdown, SVG, Python and shell files.")
     return 0
 
 
