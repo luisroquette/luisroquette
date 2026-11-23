@@ -1,5 +1,6 @@
-from pathlib import Path
+import ast
 from html.parser import HTMLParser
+from pathlib import Path
 import subprocess
 import sys
 from xml.parsers import expat
@@ -37,6 +38,7 @@ def shell_heredoc_delimiters(line: str) -> list[tuple[str, bool]]:
                     start += 1
                 word = []
                 quote = None
+                quoted = False
                 while start < len(line):
                     character = line[start]
                     if quote:
@@ -50,17 +52,29 @@ def shell_heredoc_delimiters(line: str) -> list[tuple[str, bool]]:
                     elif character in " \t\r\n;|&()<>":
                         break
                     elif character == "$" and start + 1 < len(line) and line[start + 1] == "'":
-                        quote = "'"
-                        start += 1
+                        end = start + 2
+                        while end < len(line):
+                            if line[end] == "\\":
+                                end += 2
+                            elif line[end] == "'":
+                                break
+                            else:
+                                end += 1
+                        if end >= len(line):
+                            raise ValueError("invalid shell heredoc delimiter")
+                        word.append(ast.literal_eval(line[start + 1:end + 1]))
+                        quoted = True
+                        start = end
                     elif character in "\"'":
                         quote = character
+                        quoted = True
                     elif character == "\\" and start + 1 < len(line):
                         start += 1
                         word.append(line[start])
                     else:
                         word.append(character)
                     start += 1
-                if quote or not word:
+                if quote or (not word and not quoted):
                     raise ValueError("invalid shell heredoc delimiter")
                 delimiters.append(("".join(word), strip_tabs))
         offset += len(value)
@@ -76,10 +90,9 @@ def mask_shell_heredocs(source: str) -> str:
             candidate = line.rstrip("\r\n")
             if strip_tabs:
                 candidate = candidate.lstrip("\t")
+            lines[index] = "".join("\n" if character == "\n" else " " for character in line)
             if candidate == delimiter:
                 pending.pop(0)
-            else:
-                lines[index] = "".join("\n" if character == "\n" else " " for character in line)
             continue
 
         pending.extend(shell_heredoc_delimiters(line))
