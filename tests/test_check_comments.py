@@ -8,6 +8,31 @@ from scripts.check_comments import comment_lines
 
 
 class CommentLinesTest(unittest.TestCase):
+    def test_python_and_shell_comments(self):
+        self.assertEqual(comment_lines('#!/usr/bin/env python3\nx = "https://host/#part"\n# old', '.py'), [3])
+        self.assertEqual(comment_lines('#!/bin/sh\ncat <<EOF\n# literal\nEOF\n# old', '.sh'), [5])
+        self.assertEqual(comment_lines('cat <<A <<B\n# literal a\nA\n# literal b\nB\n# old', '.sh'), [6])
+        self.assertEqual(comment_lines('echo "<<EOF"\n# old', '.sh'), [2])
+        self.assertEqual(comment_lines('cat <<-EOF\n\t# literal\n\tEOF\n# old', '.sh'), [4])
+        self.assertEqual(comment_lines('cat <<<EOF\n# old', '.sh'), [2])
+        self.assertEqual(comment_lines('echo $((1<<EOF))\n# old', '.sh'), [2])
+        self.assertEqual(comment_lines('if [[ -n "$x" ]]; then\ncat <<A <<B\n# literal a\nA\n# literal b\nB\nfi\n# old', '.sh'), [8])
+        self.assertEqual(comment_lines('cat <<EOF; echo done\n# literal\nEOF\n# old', '.sh'), [4])
+        self.assertEqual(comment_lines('cat <<- EOF\n\t# literal\n\tEOF\n# old', '.sh'), [4])
+        self.assertEqual(comment_lines('cat << -EOF\n# literal\n-EOF\n# old', '.sh'), [4])
+        self.assertEqual(comment_lines('cat <<END-OF-FILE\n# literal\nEND-OF-FILE\n# old', '.sh'), [4])
+        self.assertEqual(comment_lines('x=xx; echo ${x#x}; cat <<A <<B\n# literal a\nA\n# literal b\nB\n# old', '.sh'), [6])
+        self.assertEqual(comment_lines("cat <<$'EOF'\n# literal\nEOF\n# old", '.sh'), [4])
+        self.assertEqual(comment_lines("cat <<''\n# literal\n\n# old", '.sh'), [4])
+        self.assertEqual(comment_lines("cat <<$'E\\x4fF'\n# literal\nEOF\n# old", '.sh'), [4])
+        self.assertEqual(comment_lines("cat <<'EOF#x'\n# literal\nEOF#x\n# old", '.sh'), [4])
+        self.assertEqual(comment_lines('diff <(cat <<EOF) /dev/null\n# literal\nEOF\n# old', '.sh'), [4])
+        self.assertEqual(comment_lines('x=$((1 << 2)); cat <<EOF\n# literal\nEOF\n# old', '.sh'), [4])
+        self.assertEqual(comment_lines('cat # <<MISSING\n# old', '.sh'), [1, 2])
+        self.assertEqual(comment_lines('x=$((1 << 2)); cat <<EOF\n# literal\nEOF\n# old', '.sh'), [4])
+        with self.assertRaisesRegex(ValueError, "unterminated shell heredoc"):
+            comment_lines('cat <<EOF\n# literal\n', '.sh')
+
     def test_comment(self):
         self.assertEqual(comment_lines("<svg>\n<!-- old -->\n</svg>", ".SVG"), [2])
 
